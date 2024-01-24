@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login & registration page</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="logo"><img width="120px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9HyqlJ61VBYx7UAdfJDdL3jXnoxQrGp0731pP0QFtBhvqht2fvTReyjQDp3-jXlebUac&usqp=CAU" alt="new-logo"></h2>
+      <nav class="navigation">
+        <a href="#home-text"> HOME</a>
+        <a href="#"> ABOUT</a>
+        <a href="#"> SERVICES</a>
+        <a href="#"> CONTACT</a>
+        <button class="btnloginpopup">login</button>
+      </nav>
+    </header>
+
+    <div class="home-text">
+      <h1>DRACOS DYNASTY</h1>
+      <p>we are here to serve you</p>
+    </div>
+
+    <div class="wrapper">
+      <span class="icon-close"
+        ><ion-icon name="close-circle-outline"></ion-icon
+      ></span>
+      <div class="form-box-login">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"
+              ><ion-icon name="mail-unread-outline"></ion-icon>
+            </span>
+            <input type="email" name="" id="" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"
+              ><ion-icon name="lock-open-outline"></ion-icon
+            ></span>
+            <input type="password" name="" id="" required />
+            <label>password</label>
+          </div>
+          <div class="remeber-forget">
+            <label for="remember-me">
+              <input type="checkbox" name="remember-me" id="" />
+              Remember me
+            </label>
+            <a href="#">Forget Password</a>
+          </div>
+          <button class="btn" type="submit">Login</button>
+          <div class="Login-register">
+            <p>
+              Don't have an account?<a href="#" class="register-link"
+                >Register</a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="form-box Register">
+        <h2>Registration</h2>
+
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"
+              ><ion-icon name="people-outline"></ion-icon>
+            </span>
+            <input type="text" name="" id="" required />
+            <label>Username</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"
+              ><ion-icon name="mail-unread-outline"></ion-icon>
+            </span>
+            <input type="email" name="" id="" required />
+            <label>Email</label>
+          </div>
+
+          <div class="input-box">
+            <span class="icon"
+              ><ion-icon name="lock-open-outline"></ion-icon
+            ></span>
+            <input type="password" name="" id="" required />
+            <label>password</label>
+          </div>
+          <div class="remeber-forget">
+            <label for="remember-me">
+              <input type="checkbox" name="remember-me" id="" />
+              i agree to terms and conditions?
+            </label>
+            <!-- <a href="#">Forget Password</a> -->
+          </div>
+          <button class="btn" type="submit">Login</button>
+          <div class="Login-register">
+            <p>
+              Already have an account?<a href="#" class="Login-link">Login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
